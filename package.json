@@ -1,18 +1,17 @@
 {
-  "name": "sharp_test",
+  "name": "webp-from-url",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a web server that converts images to webp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Bright Amoateng <bright.amoateng150@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "keyv": "^4.2.2",
     "node-fetch": "^3.2.3",
     "sharp": "^0.30.3"
   }

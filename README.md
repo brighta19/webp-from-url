@@ -1,7 +1,6 @@
-# sharp-test
+# webp-from-url
 
-This was to try out the `sharp` package.\
-Converts images via URLs to webp format.
+Create a web server that converts images to webp
 
 ## Setup
 - Install packages:
@@ -16,6 +15,6 @@ npm start
 ```
 
 ## Using
-Go to `http://localhost:PORT/webp/URL`, where `PORT` is the port
-you used, and `URL` is a url to an image.\
+Go to `http://localhost:PORT/webp/URL`, where `PORT` is the port you used, and
+`URL` is a url to an image.\
 This will convert the image to **webp** format.
